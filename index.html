@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./second-styling.css" />
+        <title>BookHive</title>
+    </head>
+    <body>
+        <div class="container mx-auto relative">
+            <div class="background row absolute">
+                <img
+                    class="absolute"
+                    src="./imgs/first-cow-1200-1200-675-675-crop-000000.jpg"
+                    alt=""
+                />
+                <span class="absolute text-white movie-title"
+                    ><a href="#">First Cow (2019)</a></span
+                >
+            </div>
+            <header class="row relative justify-content-between">
+                <img class="col-3 lg-col-4 md-col-5 xsm-col-6" src="./imgs/logo-white.png" alt="" />
+                <nav class="col-9 d-flex-row align-items-center lg-d-none">
+                    <ul class="col-12 justify-content-end nav-list">
+                        <li class="nav-list-item">
+                            <a class="nav-list-link text-white small" href="#">SIGN IN</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link text-white small" href="#">CREATE ACCOUNT</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link text-white small" href="#">BOOKS</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link text-white small" href="#">LISTS</a>
+                        </li>
+                        <li class="nav-list-item col-2 relative">
+                            <input type="search" /><img
+                                class="absolute"
+                                src="./imgs/iconmonstr-magnifier-6-24.png"
+                                alt=""
+                            />
+                        </li>
+                    </ul>
+                </nav>
+                <ul
+                    class="burger-menu col-6 d-none lg-d-flex-row justify-content-end no-list-style"
+                >
+                    <li class="col-6 sm-col-7 xsm-col-8 relative d-flex-row align-items-center">
+                        <input type="search" /><img
+                            class="absolute"
+                            src="./imgs/iconmonstr-magnifier-6-24.png"
+                            alt=""
+                        />
+                    </li>
+                    <li class="col-2 sm-col-3 d-flex-row align-items-center">
+                        <img src="./imgs/iconmonstr-menu-1-24.png" alt="" />
+                    </li>
+                </ul>
+            </header>
+            <main>
+                <section class="intro row">
+                    <article class="col-12 d-flex-col">
+                        <h1 class="h1 text-white mx-auto col-12">
+                            Track books you’ve readed. <br />
+                            Save those you want to see. <br />
+                            Tell your friends what’s good.
+                        </h1>
+                        <button class="mx-auto col-3 lg-col-4 sm-col-6 xsm-col-7">
+                            GET STARTED &mdash; IT'S FREE!
+                        </button>
+                        <p
+                            class="d-flex-row sm-d-none mx-auto col-8 lg-col-12 justify-content-center"
+                        >
+                            The social network for books lovers. Also available on
+                            <i class="apple-logo"></i><i class="android-logo"></i>
+                        </p>
+                        <p
+                            class="d-none sm-d-flex-row mx-auto col-8 lg-col-12 justify-content-center"
+                        >
+                            The social network for books lovers.
+                        </p>
+                        <p
+                            class="d-none sm-d-flex-row mx-auto col-8 lg-col-12 justify-content-center"
+                        >
+                            Also available on <i class="apple-logo"></i><i class="android-logo"></i>
+                        </p>
+                    </article>
+                </section>
+                <section class="popular-films row">
+                    <div class="col-2 relative sm-col-4 sm-d-flex-row sm-justify-content-center">
+                        <a href="#" class="col-12 sm-d-flex-row sm-justify-content-center sm-mb-">
+                            <img src="./imgs/487135-first-cow-0-150-0-225-crop.jpg" alt="" />
+                        </a>
+                        <ul class="no-list-style absolute d-flex-col align-items-center lg-d-none">
+                            <li class="watched"></li>
+                            <li>2,523</li>
+                            <li class="liked"></li>
+                            <li>892</li>
+                        </ul>
+                    </div>
+                    <div class="col-2 relative sm-col-4 sm-d-flex-row sm-justify-content-center">
+                        <a href="#" class="col-12 sm-d-flex-row sm-justify-content-center sm-mb-">
+                            <img src="./imgs/458743-the-way-back-0-150-0-225-crop.jpg" alt="" />
+                        </a>
+                        <ul class="no-list-style absolute d-flex-col align-items-center lg-d-none">
+                            <li class="watched"></li>
+                            <li>13,409</li>
+                            <li class="liked"></li>
+                            <li>3,664</li>
+                        </ul>
+                    </div>
+                    <div class="col-2 relative sm-col-4 sm-d-flex-row sm-justify-content-center">
+                        <a href="#" class="col-12 sm-d-flex-row sm-justify-content-center sm-mb-">
+                            <img src="./imgs/438272-onward-0-150-0-225-crop.jpg" alt="" />
+                        </a>
+                        <ul class="no-list-style absolute d-flex-col align-items-center lg-d-none">
+                            <li class="watched"></li>
+                            <li>76,152</li>
+                            <li class="liked"></li>
+                            <li>23,700</li>
+                        </ul>
+                    </div>
+                    <div class="col-2 relative sm-col-4 sm-d-flex-row sm-justify-content-center">
+                        <a href="#" class="col-12 sm-d-flex-row sm-justify-content-center sm-mb-">
+                            <img
+                                src="./imgs/499085-the-invisible-man-0-150-0-225-crop.jpg"
+                                alt=""
+                            />
+                        </a>
+                        <ul class="no-list-style absolute d-flex-col align-items-center lg-d-none">
+                            <li class="watched"></li>
+                            <li>105,321</li>
+                            <li class="liked"></li>
+                            <li>38,376</li>
+                        </ul>
+                    </div>
+                    <div class="col-2 relative sm-col-4 sm-d-flex-row sm-justify-content-center">
+                        <a href="#" class="col-12 sm-d-flex-row sm-justify-content-center sm-mb-">
+                            <img
+                                src="./imgs/426131-birds-of-prey-and-the-fantabulous-emancipation-of-one-har-0-150-0-225-crop.jpg"
+                                alt=""
+                            />
+                        </a>
+                        <ul class="no-list-style absolute d-flex-col align-items-center lg-d-none">
+                            <li class="watched"></li>
+                            <li>133,216</li>
+                            <li class="liked"></li>
+                            <li>41,765</li>
+                        </ul>
+                    </div>
+                    <div class="col-2 relative sm-col-4 sm-d-flex-row sm-justify-content-center">
+                        <a href="#" class="col-12 sm-d-flex-row sm-justify-content-center">
+                            <img
+                                src="./imgs/460830-portrait-of-a-lady-on-fire-0-150-0-225-crop.jpg"
+                                alt=""
+                            />
+                        </a>
+                        <ul class="no-list-style absolute d-flex-col align-items-center lg-d-none">
+                            <li class="watched"></li>
+                            <li>122,751</li>
+                            <li class="liked"></li>
+                            <li>59,421</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="letterboxd-lets-you row d-flex-row flex-nowrap">
+                    <h3 class="col-12 small font-normal">BOOKHIVE LETS YOU...</h3>
+                    <article class="d-flex-row col-4 sm-col-6 xsm-col-12">
+                        <div class="wrapper green d-flex-row align-items-start 12 no-p">
+                            <div class="watch col-2"></div>
+                            <p class="col-4 text-white col-10">
+                                Keep track of every books you've ever readded (or just start from the
+                                day you join)
+                            </p>
+                        </div>
+                    </article>
+                    <article class="d-flex-row col-4 sm-col-6 xsm-col-12">
+                        <div class="wrapper orange d-flex-row align-items-start 12 no-p">
+                            <div class="like col-2"></div>
+                            <p class="col-4 text-white col-10">
+                                Show some love for your favorite books, lists and reviews with a
+                                "like"
+                            </p>
+                        </div>
+                    </article>
+                    <article class="d-flex-row col-4 sm-col-6 xsm-col-12">
+                        <div class="wrapper blue d-flex-row align-items-start 12 no-p">
+                            <div class="bars col-2"></div>
+                            <p class="col-4 text-white col-10">
+                                Write and share reviews, and follow friends and other members to
+                                read theirs
+                            </p>
+                        </div>
+                    </article>
+                    <article class="d-flex-row col-4 sm-col-6 xsm-col-12">
+                        <div class="wrapper green d-flex-row align-items-start 12 no-p">
+                            <div class="star col-2"></div>
+                            <p class="col-4 text-white col-10">
+                                Rate each book on a five-star scale (with halves) to record and
+                                share your reaction
+                            </p>
+                        </div>
+                    </article>
+                    <article class="d-flex-row col-4 sm-col-6 xsm-col-12">
+                        <div class="wrapper orange d-flex-row align-items-start 12 no-p">
+                            <div class="case col-2"></div>
+                            <p class="col-4 text-white col-10">
+                                Keep a diary of your book reading (and upgrade to
+                                <span class="font-bold">Pro</span> for comprehensive stats
+                            </p>
+                        </div>
+                    </article>
+                    <article class="d-flex-row col-4 sm-col-6 xsm-col-12">
+                        <div class="wrapper blue d-flex-row align-items-start 12 no-p">
+                            <div class="squares col-2"></div>
+                            <p class="col-4 text-white col-10">
+                                Compile and share lists of books on any topic and keep a readlist
+                                of books to see
+                            </p>
+                        </div>
+                    </article>
+                </section>
+                <section class="just-reviewed row">
+                    <header class="d-flex-row col-12 justify-content-between">
+                        <h3 class="small">JUST REVIEWED...</h3>
+                        <small>410,186,419 books readed</small>
+                    </header>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/468556-fantasy-island-0-70-0-105-crop.jpg" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/328623-chokeslam-0-70-0-105-crop.jpg" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/51294-sleepless-in-seattle-0-70-0-105-crop.jpg" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/18627-incendies-0-70-0-105-crop.jpg" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/218114-dirty-grandpa-0-70-0-105-crop.jpg" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/28543-assignment-outer-space-0-70-0-105-crop.jpg" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img
+                            src="./imgs/42571-evangelion-1-0-you-are-not-alone-0-70-0-105-crop.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img
+                            src="./imgs/41822-the-adventures-of-elmo-in-grouchland-0-70-0-105-crop.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/50013-the-butcher-0-70-0-105-crop.jpg" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/51376-the-rules-of-the-game-0-70-0-105-crop.jpg" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img
+                            src="./imgs/129816-mission-impossible-rogue-nation-0-70-0-105-crop.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/harrypotter2-0-70-0-105-crop.jpg" alt="" />
+                    </div>
+                    <p class="col-12 text-center h2 font-normal">
+                        Write and share reviews. Compile your own lists. Share your life in book.
+                    </p>
+                    <p class="col-12 text-center small">
+                        Below are some popular reviews and lists from this week.
+                        <span><a href="#">Sign up</a></span> to create your own.
+                    </p>
+                </section>
+                <section class="popular row">
+                    <section class="popular-this-week col-8 sm-col-12">
+                        <header class="d-flex-row justify-content-between">
+                            <h5 class="h6 font-normal">POPULAR REVIEWS THIS WEEK</h5>
+                            <span><a href="#" class="small">MORE</a></span>
+                        </header>
+                        
+
+                        <article class="w-100">
+                            <figure class="d-flex-row align-items-start">
+                                <div class="col-2">
+                                    <img src="./imgs/hayvan-ciftliği.jpeg" alt="" />
+                                </div>
+
+                                <figcaption class="col-10 text-white">
+                                    <h3 class="h3 text-white">
+                                        Hayvan Çiftliği <span class="font-normal">1945</span>
+                                    </h3>
+                                    <div class="commenter d-flex-row align-items-center">
+                                        <img src="./imgs/sean.png" alt="" />
+                                        <span class="font-bold">Sean Baker</span>
+                                        <i class="speech-bubble"></i>
+                                        <span class="comments-amount">9</span>
+                                    </div>
+                                    <p>
+                                        "Hayvan Çiftliği", bir çiftlikteki hayvanların insan zalimliğinden bıkıp devrim yaparak kendi yönetimlerini kurmasını anlatır. Başta eşitlik, özgürlük ve kardeşlik idealleriyle başlayan bu yeni düzen zamanla yozlaşır. Domuzlar diğer hayvanlar üzerinde baskı kurar ve eski düzenin yerine yeni bir diktatörlük kurulur. Hikâye, devrimlerin nasıl ihanetle sonuçlanabileceğini ve gücün nasıl yozlaştırabileceğini çarpıcı bir şekilde gözler önüne serer.
+
+İstersen başka bir kitap da önerebilirim, ister misin? 
+                                    </p>
+                                    <p class="d-flex-row align-items-center">
+                                        <i class="heart"></i> 423 likes
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </article>
+
+                        <article class="w-100">
+                            <figure class="d-flex-row align-items-start">
+                                <div class="col-2">
+                                    <img src="./imgs/Körlük, Jose Saramago.jpeg" alt="" />
+                                </div>
+                                <figcaption class="col-10 text-white">
+                                    <h3 class="h3 text-white">
+                                        Körlük <span class="font-normal">1995</span>
+                                    </h3>
+                                    <div class="commenter d-flex-row align-items-center">
+                                        <img src="./imgs/random.png" alt="" />
+                                        <span class="font-bold">Demi Adejuyigbe</span>
+                                        <img src="./imgs/5-stars.png" alt="" />
+                                        <i class="speech-bubble"></i>
+                                        <span class="comments-amount">141</span>
+                                    </div>
+                                    <p>
+                                        "Körlük", isimsiz bir şehirde aniden başlayan ve hızla yayılan bir körlük salgınını konu alır. Salgına yakalananlar bir karantinaya kapatılır. İçeride düzen çöker, insanlar açlık, şiddet ve umutsuzlukla mücadele eder. Toplumun yüzeyde duran medeniyet maskesinin ne kadar çabuk düştüğünü ve insan doğasının karanlık yönlerini ortaya koyar. Körlük, hem bireysel hem toplumsal bir çöküşün alegorisi olarak okunur.
+
+                                    </p>
+                                    <p class="d-flex-row align-items-center">
+                                        <i class="heart"></i> 671 likes
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </article>
+
+                        <article class="w-100">
+                            <figure class="d-flex-row align-items-start">
+                                <div class="col-2">
+                                    <img
+                                        src="./imgs/Goodreads.jpeg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <figcaption class="col-10">
+                                    <h3 class="h3 text-white">
+                                        Martı
+                                        <span class="font-normal">1970</span>
+                                    </h3>
+                                    <div class="commenter d-flex-row align-items-center">
+                                        <img src="./imgs/adrian.png" alt="" />
+                                        <span class="font-bold">adrianbalboa</span>
+                                        <img src="./imgs/4-and-half.png" alt="" />
+                                        <i class="speech-bubble"></i>
+                                        <span class="comments-amount">3</span>
+                                    </div>
+                                    <p>
+                                        "Martı", sıradan bir martı sürüsünün aksine uçmanın sınırlarını keşfetmek isteyen Jonathan Livingston adındaki bir martının hikâyesidir. Jonathan, sadece hayatta kalmak için uçmaktan çok daha fazlasını ister; özgürlüğü, mükemmelliği ve anlamı arar. Bu yolculukta hem dışlanır hem de içsel bir aydınlanmaya ulaşır. Kitap, özgün olmanın, tutkuların peşinden gitmenin ve ruhsal gelişimin önemini anlatan etkileyici bir alegoridir.
+                                    </p>
+                                    <p class="d-flex-row align-items-center">
+                                        <i class="heart"></i> 619 likes
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </section>
+                    <!-- POPULAR LISTS AND REVIEWERS SECTION -->
+                    <section
+                        class="popular-lists-reviewers col-4 sm-col-12 d-flex-row sm-justify-content-between xsm-flex-wrap"
+                    >
+                        <section
+                            class="popular-lists col-12 sm-col-6 xsm-col-12 xsm-d-flex-col xsm-align-items-center"
+                        >
+                            
+                            
+                        </section>
+                        <section class="popular-reviewers col-12 sm-col-5 xsm-col-12">
+                            <header class="d-flex-row justify-content-between">
+                                <h5 class="h5 font-normal">POPULAR REVIEWERS</h5>
+                                <span><a href="#" class="small">MORE</a></span>
+                            </header>
+                            <figure class="d-flex-row justify-content-start">
+                                <img class="xsm-col-2" src="./imgs/brat.png" alt="" />
+                                <figcaption>
+                                    <h5 class="h5 text-white">brat pitt</h5>
+                                    <p class="small">
+                                        <a href="#">1,934 books,</a> <a href="#">1,248 reviews</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <figure class="d-flex-row justify-content-start">
+                                <img class="xsm-col-2" src="./imgs/lucy.png" alt="" />
+                                <figcaption>
+                                    <h5 class="h5 text-white">Lucy</h5>
+                                    <p class="small">
+                                        <a href="#">2,016 books,</a> <a href="#">1,227 reviews</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <figure class="d-flex-row justify-content-start">
+                                <img class="xsm-col-2" src="./imgs/adrian.png" alt="" />
+                                <figcaption>
+                                    <h5 class="h5 text-white">adrianbalboa</h5>
+                                    <p class="small">
+                                        <a href="#">1,210 books,</a> <a href="#">1,161 reviews</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <figure class="d-flex-row justify-content-start">
+                                <img class="xsm-col-2" src="./imgs/random.png" alt="" />
+                                <figcaption>
+                                    <h5 class="h5 text-white">Demi Adejuyigbe</h5>
+                                    <p class="small">
+                                        <a href="#">1,168 books,</a> <a href="#">647reviews</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <figure class="d-flex-row justify-content-start">
+                                <img class="xsm-col-2" src="./imgs/maria.png" alt="" />
+                                <figcaption>
+                                    <h5 class="h5 text-white">maria</h5>
+                                    <p class="small">
+                                        <a href="#">1,501 books,</a> <a href="#">398 reviews</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </section>
+                    </section>
+                </section>
+
+            </main>
+           
+        </div>
+    </body>
+</html>
